@@ -18,6 +18,10 @@ body {
   align-self: center;
   margin: auto;
 }
+/* .box:hover {
+  padding: 15px;
+  transition: 1s;
+} */
 .box h1 {
   text-align: center;
   color: black;
