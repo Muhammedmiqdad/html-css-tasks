@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="logo-container">
+        <img src="image/logo.png" alt="logo" />
+        <h2>One School</h2>
+      </div>
+      <div id="profile-container">
+        <img src="image/profile.jpg" alt="profile" />
+      </div>
+    </div>
+    <div class="main">
+      <div id="sidebar">
+        <nav class="side">
+          <h2>STUDENTS</h2>
+          <h2>STAFF</h2>
+          <h2>EXAMS</h2>
+        </nav>
+      </div>
+      <div class="main-container">
+        <h2>STUDENT REGISTRATION</h2>
+        <form action="index.html" method="post" class="form">
+          <div class="form-group">
+            <div class="form-control">
+              <label for="">First Name <span>*</span>:</label>
+              <br />
+              <input type="text" placeholder="Enter your first name" />
+            </div>
+            <div class="form-control">
+              <label for="">Last Name <span>*</span>:</label>
+              <br />
+              <input type="text" placeholder="Enter your last name" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-control">
+              <label for="">Mobile <span>*</span>:</label>
+              <br />
+              <input type="mobile" placeholder="Enter your Mobile number" />
+            </div>
+            <div class="form-control">
+              <label for="">Email <span>*</span>:</label>
+              <br />
+              <input type="email" placeholder="Enter your email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-control">
+              <label for="">Branch <span>*</span>:</label>
+              <br />
+              <select name="" class="select">
+                <option value="">Select Branch you would like</option>
+                <option value="mechanical">mechanical</option>
+                <option value="civil">civil</option>
+                <option value="chemical">chemical</option>
+                <option value="computer science">computer science</option>
+              </select>
+            </div>
+            <div class="new-control">
+              <label for="">Do You Need Hostile facility :</label>
+              <br />
+              <div class="radio1">
+                <input type="radio" name="yes" value="Yes" />
+                <label for="">Yes</label>
+              </div>
+              <div class="radio2">
+                <input type="radio" name="yes" value="NO" />
+                <label for="">No</label>
+              </div>
+            </div>
+          </div>
+          <div id="form-group">
+            <div class="form-control">
+              <label for="">Choose Additional Subjects :</label>
+              <br />
+              <div class="check-box">
+                <form action="">
+                  <input type="checkbox" name="checkbox" />
+                  <label for="">Cyber Security</label>
+                  <input type="checkbox" name="checkbox" id="c-1"/>
+                  <label for="">Artificial Intelligence</label>
+                  <input type="checkbox" name="checkbox" id="c-1" />
+                  <label for="">Block Chain</label>
+                  <input type="checkbox" name="checkbox" id="c-1" />
+                  <label for="">IoT</label>
+                  <input type="checkbox" name="checkbox" id="c-1" />
+                  <label for="">Robotics</label>
+                </form>
+              </div>
+              <div class="text-message">
+                <label for="">Permanent Address <span>*</span>:</label>
+                <br />
+                <textarea placeholder="Enter your full address"></textarea>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="form-button">
+                <div class="button1">
+                  <button type="button" name="button">CLEAR</button>
+                </div>
+                <div class="button2">
+                  <button type="button" name="button">SUBMIT</button>
+                </div>
+        </div>
+    </div>
+  </body>
+</html>

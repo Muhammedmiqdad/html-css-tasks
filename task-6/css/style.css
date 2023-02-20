@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+span {
+  color: red;
+}
+body {
+  background-color: #ffffff;
+}
+#navbar {
+  height: 81px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ababab;
+}
+#logo-container {
+  width: 300px;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+}
+#logo-container img {
+  height: 60px;
+  margin-right: 15px;
+}
+#logo-container h2 {
+  display: inline-block;
+  padding-top: 15px;
+  color: #686868;
+}
+#profile-container {
+  width: auto;
+  float: right;
+}
+#profile-container > img {
+  height: 60px;
+  margin: 31px;
+  border-radius: 50%;
+}
+.main {
+  height: calc(100vh - 81px);
+}
+#sidebar {
+  height: 100%;
+  width: 167px;
+  float: left;
+  border-right: 2px solid #ababab;
+}
+.main-container > h2 {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #686868;
+}
+.main-container {
+  width: 1100px;
+  padding: 24px;
+  float: left;
+  margin-left: 30px;
+}
+.side {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.side h2 {
+  font-size: 20px;
+  color: #686868;
+  margin-bottom: 20px;
+}
+.form {
+  /* margin-top: 10px; */
+  color: #686868;
+}
+/* .second{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+.main-container form {
+  padding: 15px 0px;
+}
+.main-container form .form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form .form-group .form-control {
+  height: 40px;
+  width: calc(100% / 2 - 70px);
+  margin-bottom: 40px;
+}
+form .form-group .form-control input,
+form .text-message textarea {
+  height: 100%;
+  width: 100%;
+  font-size: 13px;
+  outline: none;
+  border: 1px solid #c8abab;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+form .form-group .form-control input:focus,
+form .text-message textarea:focus {
+  border: 1px solid #26839d;
+}
+form .form-group .form-control input::placeholder,
+form .text-message textarea::placeholder {
+  font-size: 11px;
+  color: #686868;
+  /* text-transform: capitalize; */
+}
+.form-control input {
+  color: #686868;
+}
+.form-control select {
+  height: 100%;
+  width: 100%;
+  font-size: 13px;
+  outline: none;
+  border: 1px solid #c8abab;
+  padding: 0 10px;
+  color: #686868;
+  margin-top: 10px;
+}
+.new-control {
+  height: 40px;
+  width: calc(100% / 2 - 70px);
+  margin-bottom: 40px;
+}
+.radio1 {
+  height: 15px;
+  width: 69px;
+  float: left;
+  margin: 10px;
+  margin-top: 20px;
+}
+.radio2 {
+  height: 15px;
+  width: 69px;
+  float: left;
+  margin: 10px;
+  margin-top: 20px;
+}
+/* .radio1 label{
+  color: #03045e;
+}
+.radio2 label{
+  color: #26839d;
+} */
+#c-1 {
+  margin-left: 40px;
+}
+.check-box {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.check-box label {
+  margin-left: 10px;
+}
+.check-box input {
+  margin-left: 2px;
+}
+form .text-message textarea {
+  min-height: 140px;
+  max-height: 140px;
+  min-width: 55%;
+  max-width: 55%;
+  padding: 10px 5px 10px 5px;
+  resize: none;
+}
+.form-button {
+  display: inline-flex;
+}
+.form-button {
+  margin-left: 845px;
+}
+.form-button button {
+  height: 45px;
+  width: 150px;
+  border: none;
+  outline: none;
+  color: #fff;
+  /* background: #03045e; */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.8s ease;
+  border-radius: 50px;
+}
+.form-button button:hover {
+  background: #023e8a;
+}
+.button1 button {
+  background-color: #ff7261;
+  /* float: left; */
+  border-radius: 50px;
+}
+.button2 button {
+  background-color: #3bb989;
+  margin-left: 50px;
+  float: left;
+}
+.text-message ::placeholder {
+  color: #686868;
+}
+/* page two */
+.main2-container h2 {
+  float: left;
+}
+.main2-container .bt {
+  background-color: #3bb989;
+  color: #ffffff;
+  border: none;
+  margin-left: 984px;
+  height: 25px;
+  width: 110px;
+}
+.main2-container a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.table-tb {
+  min-width: 1200px;
+  margin-top: 10px;
+  overflow: auto;
+}
+.table-tb {
+  width: 1200px;
+}
+table,
+tr,
+td {
+  border: 1px solid #ababab;
+  border-collapse: collapse;
+}
+tr,
+td {
+  padding: 10px;
+  color: #686868;
+}
+.main2-container {
+  width: 1280px;
+  padding: 24px;
+  float: left;
+  margin-left: 30px;
+}
+.main2-container > h2 {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #686868;
+}
