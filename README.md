@@ -8,7 +8,7 @@
 
 Assignments
 
-[Static Site](https://muhammedmiqdad.github.io/betasquirrel-tasks/)
+[Static Site](https://muhammedmiqdad.github.io/html-css-tasks/)
 
 ## Linux-commands
 
